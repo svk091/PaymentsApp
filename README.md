@@ -71,4 +71,4 @@ To install and run the application, follow these steps:
 
 ## Usage
 
-Once the backend and frontend servers are running, you can access the application at `http://localhost:3000/api/v1/user/signup` or Signin at `http://localhost:3000/api/v1/user/signin`. Use the provided API endpoints to perform various operations.
+Once the backend and frontend servers are running, you can access the application at `http://localhost:5173/signup` or Signin at `http://localhost:5173/signin`. Use the provided API endpoints to perform various operations.
