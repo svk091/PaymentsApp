@@ -7,7 +7,7 @@ import Button from "../common/Button";
 import axios from "axios";
 
 export default function SendMoney() {
-    const [ amount, setAmount ] = useState(0);
+    const [ amount, setAmount ] = useState(null);
     const { state } = useLocation();
     const { userId, reciever } = state;
     const navigate = useNavigate();
