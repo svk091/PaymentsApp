@@ -22,6 +22,7 @@ This application provides a basic framework for handling payments and user manag
 - User signup, login, and profile update routes
 - Account creation and balance checking routes
 - Money transfer between accounts
+- Users receive a random amount of money as a signup bonus
 - Bulk user data retrieval
 
 ## Folder Structure
