@@ -36,7 +36,6 @@ export default function SendMoney() {
     return (
         <div className="grid h-screen bg-gray-400 place-items-center">
             <div className="bg-gray-100 w-1/3 rounded-2xl shadow-2xl h-3/5 p-5 flex flex-col ">
-                <div>{localStorage.getItem('token')}</div>
                 <Heading label={'Send Money'} />
                 <User label={reciever} />
                 <Input label={'Amount (in Rs)'} type={'number'} value={amount} placeholder={'Enter amount'} onChange={(e) => {
